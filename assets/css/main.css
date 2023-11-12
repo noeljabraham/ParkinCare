@@ -2672,3 +2672,14 @@ section {
 .adjust-line-height {
   line-height: 0.1em;
 }
+/*Circular Container*/
+.circular-container {
+  width: 160px; /* Set the width and height as per your design */
+  height: 60px;
+  border-radius: 20%/60%; /* Make it circular */
+  overflow: hidden; /* Ensure the content stays within the circular shape */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* Add background color if needed */
+}
